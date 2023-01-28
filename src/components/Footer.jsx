@@ -3,16 +3,16 @@ import {FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube,} from 'react-ico
 
 const Footer = () => {
   return (
-    <div className='w-full py-16 text-white'>
+    <div id='footer' className='w-full py-16 text-white'>
         <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
             <div className='sm:flex flex-col text-center justify-between items-center'>
                 <h1> Inlight</h1>
-                <div className='flex justify-between w-full sm:max-w[280px] my-4'>
-                  <FaFacebook className='icon' />
-                  <FaTwitter className='icon' />
-                  <FaYoutube className='icon' />
-                  <FaInstagram className='icon' />
-                  <FaPinterest className='icon' />
+                <div className='flex justify-between w-full sm:max-w[280px] my-4 '>
+                  <FaFacebook className='icon hover:scale-150 transition duration-300 ease-in-out' />
+                  <FaTwitter className='icon hover:scale-150 transition duration-300 ease-in-out' />
+                  <FaYoutube className='icon hover:scale-150 transition duration-300 ease-in-out' />
+                  <FaInstagram className='icon hover:scale-150 transition duration-300 ease-in-out' />
+                  <FaPinterest className='icon hover:scale-150 transition duration-300 ease-in-out' />
                 </div>
 
             </div>

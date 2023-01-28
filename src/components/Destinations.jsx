@@ -7,7 +7,7 @@ import pic7 from '../assets/pic7.jpg'
 
 const Destinations = () => {
   return (
-    <div className=' w-full mx-auto py-16 px-4 text-center bg-white font-bold uppercase border-b'>
+    <div id='equipments' className=' w-full mx-auto py-16 px-4 text-center bg-white font-bold uppercase border-b'>
         <h1> All Inclusive Services</h1>
         <p className='py-4'> All your entertanment needs and more....</p>
 

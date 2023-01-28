@@ -5,6 +5,7 @@ import Analytics from './components/Analytics';
 import Newsletter from './components/Newsletter';
 import Destinations from './components/Destinations';
 import Footer from './components/Footer';
+import Analyti from './components/Analyti';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Analytics/>
+      <Analyti />
       <Newsletter/>
       <Destinations />
       <Footer />

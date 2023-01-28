@@ -16,10 +16,10 @@ const Navbar = () => {
     <div className= 'flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white' >
         <h1 className='w-full text-3xl font-bold text-[#aqua] '>INLIGHT.  </h1>
       <ul className='hidden sm:flex hover:cursor-pointer'>
-        <li className='p-4'>Home</li>
-        <li className='p-4'> Company</li>
-        <li className='p-4'> Resources</li>
-        <li className='p-4'>About</li>
+        <li className='p-4'> <a href='#home'>Home </a> </li>
+        <li className='p-4'> <a href="#about" > About</a>  </li>
+        <li className='p-4'> <a href="#equipments"> Equipment</a> </li>
+       
       </ul>
 
       <div onClick={handleNav} className='block sm:hidden' >
@@ -30,10 +30,10 @@ const Navbar = () => {
       <h1 className='w-full text-3xl font-bold text-[#aqua] m-4'>INLIGHT.  </h1>
         
         <ul className='pt-6 uppercase'>
-        <li className='p-4 border-b border-gray-600'>Home</li>
-        <li className='p-4 border-b border-gray-600'> Company</li>
-        <li className='p-4 border-b border-gray-600'> Resources</li>
-        <li className='p-4'>About</li> 
+        <li  className='p-4 border-b border-gray-600'> <a href="#home" > Home</a> </li>
+        <li className='p-4 border-b border-gray-600'> <a href="#about">About</a> </li>
+        <li className='p-4 border-b border-gray-600'> <a href="#equipments"> Equipment.</a> </li>
+        
 
         </ul>
       </div>

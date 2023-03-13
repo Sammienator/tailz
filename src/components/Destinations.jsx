@@ -9,8 +9,8 @@ const Destinations = () => {
   return (
     <div id='equipments' className=' w-full mx-auto py-16 px-4 text-center bg-white font-bold uppercase border-b'>
         <h1> All Inclusive Services</h1>
-        <p className='py-4'> All your entertanment needs and more....</p>
-
+        <p className='py-4'> At Inlight Entertainment we believe that seeing is believing</p>
+        <p className='py-4'> See some of our moments below. Visit our social media platforms to see more. </p>
         <div className='grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4'>
             <img className='w-full h-full object-cover col-span-2 md:col-span-3 row-span-2' src={pic3} alt="/" />
             <img className='w-full h-full object-cover' src={pic4} alt="/" />

@@ -8,11 +8,11 @@ const Footer = () => {
             <div className='sm:flex flex-col text-center justify-between items-center'>
                 <h1> Inlight</h1>
                 <div className='flex justify-between w-full sm:max-w[280px] my-4 '>
-                  <FaFacebook className='icon hover:scale-150 transition duration-300 ease-in-out' />
-                  <FaTwitter className='icon hover:scale-150 transition duration-300 ease-in-out' />
-                  <FaYoutube className='icon hover:scale-150 transition duration-300 ease-in-out' />
-                  <FaInstagram className='icon hover:scale-150 transition duration-300 ease-in-out' />
-                  <FaPinterest className='icon hover:scale-150 transition duration-300 ease-in-out' />
+                  <a href='https://www.facebook.com/'><FaFacebook className='icon hover:scale-150 transition duration-300 ease-in-out' /> </a>
+                 <a href='https://www.twitter.com/'><FaTwitter className='icon hover:scale-150 transition duration-300 ease-in-out' /> </a> 
+                 <a href='https://www.youtube.com/'> <FaYoutube className='icon hover:scale-150 transition duration-300 ease-in-out' /> </a> 
+                 <a href='https://www.Instagram.com/'><FaInstagram className='icon hover:scale-150 transition duration-300 ease-in-out' /> </a> 
+                  <a href='https://www.Pinterest.com/'><FaPinterest className='icon hover:scale-150 transition duration-300 ease-in-out' /> </a>
                 </div>
 
             </div>

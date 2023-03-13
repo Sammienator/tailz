@@ -15,7 +15,7 @@ const Newsletter = () => {
              
 
             </div>
-            <p className='md:flex-col'> We care about the protection of your Data. Read our <span className='text-[aqua]'> Privacy Policy. </span> </p>
+            <p className='md:flex-col'> We care about the protection of your Data. Read our <span  className='text-[aqua]' ><a href='https://www.privacypolicies.com/'> Privacy Policy. </a>  </span> </p>
             
 
         </div>

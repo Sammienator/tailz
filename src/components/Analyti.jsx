@@ -18,9 +18,9 @@ const Analyti = () => {
           <p>We offer professional Sound & DJ services for your events and functions.We are up to task and also offer quality sound for any live band performances as well. For Sound and DJ services , talk to us! </p>
 
           <a href="#footer" className='bg-[aqua] w-[200px] rounded-md font-medium my-4 mx-auto  py-6 text-black text-center '>
-          <button > Contact Us.</button>
+         <a href="#footer"> <button > Contact Us.</button>  </a> 
           </a>
-          
+
         </div>
 
         <img className='w-[500px] mx-auto my-4 h-[300px]'  src={pic8} alt="/" />

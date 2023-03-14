@@ -17,7 +17,7 @@ const Analytics = () => {
          
 
           <a href="#equipments" className='bg-[aqua] w-[200px] rounded-md font-medium my-4 mx-auto  py-6 text-black text-center '>
-          <button > View More.</button>
+         <a href="#equipment"> <button  > View More.</button> </a> 
           </a>
 
         </div>

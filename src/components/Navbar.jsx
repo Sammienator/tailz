@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <div className= 'flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white' >
-        <h1 className='w-full text-3xl font-bold text-[#aqua] '>INLIGHT.  </h1>
-      <ul className='hidden sm:flex hover:cursor-pointer'>
+        <h1 className='w-full text-5xl font-bold text-[#aqua] '>INLIGHT.  </h1>
+      <ul className='hidden sm:flex hover:cursor-pointer text-2xl'>
         <li className='p-4'> <a href='#home'>Home </a> </li>
         <li className='p-4'> <a href="#about" > About</a>  </li>
         <li className='p-4'> <a href="#equipments"> Equipment</a> </li>

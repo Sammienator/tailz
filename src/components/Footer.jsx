@@ -18,18 +18,16 @@ const Footer = () => {
             </div>
             <div className='flex justify-between'>
               <ul className='md:flex'>
-                <li>About</li>
+                <a href=" #hero"><li >About</li>    </a>
                 <li>Patnership</li>
-                <li>Careers</li>
-                <li>Newsroom</li>
+                <a href=" #news"><li> NewsLetter</li>    </a>
                 <li>Advertising</li>
               </ul>
               <ul className='text-right md:flex'>
-                <li>Home</li>
-                <li>Destination</li>
+              <a href=" #hero"><li >Home</li>    </a>
+              <a href=" #equipments"><li> Equipments</li>    </a>
                 <li>Travel</li>
-                <li>View</li>
-                <li>Book</li>
+                
               </ul>
             </div>
 
